@@ -2,6 +2,10 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+body{
+    background-color: #faedcd;
+}
+
 /*功能選項*/
 
 a {
