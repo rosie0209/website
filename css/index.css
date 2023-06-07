@@ -1,0 +1,179 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: #ddb892;
+    display: flex;
+    justify-content: center;
+}
+
+.shop {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+article img {
+    border-radius: 60px;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: #ddb892;
+    text-align: center;
+}
+
+.place {
+    margin-top: 50px;
+}
+
+
+/*輪播廣告*/
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    user-select: none;
+    background-color: #faedcd;
+}
+
+section img {
+    margin: 15px;
+    width: 600px;
+    height: 380px;
+}
+
+.container {
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    background-color:d;
+}
+
+.slide {
+    display: none;
+    text-align: center;
+}
+
+.show {
+    display: block;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    transition: 0.6s ease;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.text {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/*new*/
+.underpart {
+    display: grid;
+    width: 75%;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+/*功能選項*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #dcd8d8;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

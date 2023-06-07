@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sig.css">
+    <title>會員登入</title>
+</head>
+<body>
+    <nav>
+        <a href="personal.html"><div style="text-align: center;"><img src="img/nav_icon/about.png" class="place"  width="50px" height="50px"><br> 關於我們</div></a>
+        <div class="dropdown"> 
+            <div style="text-align: center;" class="navpic">
+                <img src="img/nav_icon/product.png" class="place" width="50px" height="50px"><br>產品資訊
+            </div>
+            <div class="dropdown-content">
+                <a href="product.html">所有商品</a>
+                <a href="product.html#cookies">餅乾</a>
+                <a href="product.html#hard">硬糖</a>
+                <a href="product.html#soft">軟糖</a>
+                <a href="product.html#choco">巧克力</a>
+                <a href="product.html#toys">玩具</a>
+            </div>
+        </div>
+        <a href="index.html"><img src="img/nav_icon/logo.png" class="logo" alt="網站logo"></a>  <!-- 自己製作的-->
+        <div class="dropdown">
+            <div style="text-align: center;" class="navpic">
+                <img src="img/nav_icon/user.png" class="place" width="50px" height="50px"><br>會員專區
+            </div>
+            <div class="dropdown-content">
+                <a href="signin.html">登入會員</a>
+                <a href="resign.html">註冊會員</a>
+                <a href="Comment.html">會員資料</a>
+            </div>
+        </div>
+        <a href="cart.html"><img src="img/nav_icon/shopping.png" class="place" width="50px" height="50px" /><br> &nbsp; 購物車</a>
+    </nav>   
+    <div class="box">
+        <form action="post">
+
+        <div class="title">
+            會員登入
+            <hr><br>
+        </div>
+        <div>
+            帳號: <input type="text" name="username" placeholder="帳號"><br><br>
+            密碼: <input type="password" name="password" placeholder="密碼"><br><br>
+            <input type="submit" value="登入" class="button">&nbsp;
+            <input type="reset" value="取消" class="button"><br><br>
+            <a href="resign.html" style="color: black;">註冊會員</a>&nbsp;&nbsp;
+            <a href="forgotcode.html" style="color: black;">忘記密碼</a><br><br>
+        </div>
+        <div class="down">
+            <div class="googlebox">
+                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S403651603%3A1684831808337405&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=Af_xneEcZNtDb3IrRCuYTzlK5LjXzKoYrUP_Imupoyp9KePnuDNiNwcRlc3DzlrReyWKgFeq7tgLCg&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    使用Google登入</a>
+            </div>
+            <br><br>
+            <div class="linebox">
+                <a href="https://access.line.me/oauth2/v2.1/login?returnUri=%2Foauth2%2Fv2.1%2Fauthorize%2Fconsent%3Fresponse_type%3Dcode%26client_id%3D1529013389%26redirect_uri%3Dhttps%253A%252F%252Fevent.line.me%252Flogin%253FredirectUrl%253Dhttps%25253A%25252F%25252Fevent.line.me%25252Fluckydraw%25252FugBFIDeyMxcoCaY7HaaGgUUKWaj3xCddVX8EgYXNpzbtDrb4T4hAv68cP9NGXK7xPyBN-GBNwzalf1QMtdrhWw%26state%3D10001111%26scope%3Dopenid%2Bprofile&loginChannelId=1529013389&loginState=Meza7JsCPOWqngDMfBYcoF#/">
+                    使用Line登入</a>
+            </div>
+            <br><br>
+            <div class="fbbox">
+                <a href="https://zh-tw.facebook.com/">使用Facebook登入</a>
+            </div>
+        </div>
+        </form>
+    </div>
+    <footer>
+        @by memory grocery store <br>
+        地址:320桃園市中壢區中北路200號<br>
+        電話: 032655401
+      </footer>
+</body>
+</html>

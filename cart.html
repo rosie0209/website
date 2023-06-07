@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購物車</title>
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <nav>
+        <a href="personal.html"><div style="text-align: center;"><img src="img/nav_icon/about.png" class="place" width="50px" height="50px"><br> 關於我們</div></a>
+        <div class="dropdown"> 
+            <div style="text-align: center;" class="navpic">
+                <img src="img/nav_icon/product.png" class="place" width="50px" height="50px"><br>產品資訊
+            </div>
+            <div class="dropdown-content">
+                <a href="product.html">所有商品</a>
+                <a href="product.html#cookies">餅乾</a>
+                <a href="product.html#hard">硬糖</a>
+                <a href="product.html#soft">軟糖</a>
+                <a href="product.html#choco">巧克力</a>
+                <a href="product.html#toys">玩具</a>
+            </div>
+        </div>
+        <a href="index.html"><img src="img/nav_icon/logo.png" class="logo" alt="網站logo"></a>  <!-- 自己製作的-->
+        <div class="dropdown">
+            <div style="text-align: center;" class="navpic">
+                <img src="img/nav_icon/user.png" class="place" width="50px" height="50px"><br>會員專區
+            </div>
+            <div class="dropdown-content">
+                <a href="signin.html">登入會員</a>
+                <a href="resign.html">註冊會員</a>
+                <a href="Comment.html">會員資料</a>
+            </div>
+        </div>
+        <a href="cart.html"><img src="img/nav_icon/shopping.png" class="place" width="50px" height="50px" /><br> &nbsp; 購物車</a>
+    </nav>  
+    <div class="back">
+    <section><br>
+        <div class="one">
+            <h2>商品明細</h2>
+                <br>
+                <table border="1px" >
+                    <tr>
+                        <td><h4 style="width: 150px;">名稱</h4></td>
+                        <td><h4 style="width: 150px;">類別</h4></td>
+                        <td><h4 style="width: 150px;">圖片</h4></td>
+                        <td><h4 style="width: 150px;">單價</h4></td>
+                        <td><h4 style="width: 150px;">數量</h4></td>      
+                    </tr>
+                    <tr>
+                        <td><h4>水果軟糖</h4></td>
+                        <td><h4>軟糖</h4></td>
+                        <td><a href="avocado.html"><img  style="width: 130px; height: 130px; border-radius: 25px;" src="img/candy/candy2-02.jpg"></a></td>
+                        <td><h4>NT$ 100</h4></td>
+                        <td>
+                        <div class="flex">
+                            <div class="quantity">
+                            2
+                            </div>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h4>數字餅乾</h4></td>
+                        <td><h4>古早味餅乾</h4></td>
+                        <td><a href="Mydear.html"><img  style="width: 130px; height: 130px; border-radius: 25px;" src="img/cookie/cookie3-02.jpg"></a></td>
+                        <td><h4>NT$ 100</h4></td>
+                        <td>
+                        1
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"><p><h2>總金額：NT$ 300</h2></p></td>
+                    </tr>
+                </table>
+         </div>        
+    </section>
+        <br>
+        <section>
+            <br><br>
+            <table>
+            <form method="post" action="">
+                <h2 style="text-align: center;">付款資訊</h2><br/>
+                <tr>
+                    <td>收件人姓名：</td>
+                    <td><input type="text" name="account" size="30" style="padding:10px;"  placeholder="請輸入完整姓名"/></td>
+                </tr>
+                <tr>
+                    <td>收件人電話:</td>
+                    <td><input type="password" name="password" size="30" style="padding:10px;" placeholder="請輸入手機號碼"/></td>
+                </tr>
+                <tr>
+                    <td>收件人信箱：</td>
+                    <td><input type="password" name="pwcheck" size="30" style="padding:10px;" placeholder="請輸入電子信箱"/></td>
+                </tr>
+                <tr>
+                    <td>宅配地址:</td>
+                    <td><input type="tel" name="phone" size="30" style="padding:10px;" placeholder="請輸入詳細地址"/></td>
+                </tr>
+                <tr>
+                    <td>付款及取貨資訊:</td>
+                    <td>
+                        <select name="pay_and_take_way" size="1" style="padding:10px;">
+                            <option>宅配到府，貨到付款</option>
+                            <option>宅配到府，信用卡支付</option>
+                            <option>宅配到府，ATM轉帳</option>
+                            <option>來店取貨，貨到付款</option>
+                            <option>來店取貨，信用卡支付</option>
+                            <option>來店取貨，ATM轉帳</option>
+                        </select>
+                    </td>
+                </tr>
+            </form>   
+        </table>
+        <br><br>
+        </section>
+        <section style="text-align: center;">
+            <div>
+                <button type="button" style="margin-left: 68px;">
+                    <a href="cart.html" >下單</a>
+                </button>
+                <button type="button">
+                    <a href="product.html" >繼續購物 </a>
+                </button>
+            </div>
+        </section>
+        <br>
+        <br>
+    </div>
+        <footer>
+            @by memory grocery store <br>
+            地址:320桃園市中壢區中北路200號<br>
+            電話: 032655401
+        </footer>
+    </body>
+</html>

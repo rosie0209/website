@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/*功能選項*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: #ddb892;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+.place {
+    margin-top: 50px;
+}
+
+/*功能選項End*/
+
+h2 {
+    text-align: center;
+}
+
+section {
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #faedcd;
+}
+
+footer {
+    background-color: #ddb892;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/*功能選項*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #dcd8d8;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

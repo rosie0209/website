@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/home.js"></script>
+    <title>首頁</title>
+</head>
+<body>
+    <nav>
+        <a href="personal.html"><div style="text-align: center;"><img src="img/nav_icon/about.png" class="place" width="50px" height="50px"><br> 關於我們</div></a>
+        <div class="dropdown"> 
+            <div style="text-align: center;" class="navpic">
+                <img src="img/nav_icon/product.png" class="place" width="50px" height="50px"><br>產品資訊
+            </div>
+            <div class="dropdown-content">
+                <a href="product.html">所有商品</a>
+                <a href="product.html#cookies">餅乾</a>
+                <a href="product.html#hard">硬糖</a>
+                <a href="product.html#soft">軟糖</a>
+                <a href="product.html#choco">巧克力</a>
+                <a href="product.html#toys">玩具</a>
+            </div>
+        </div>
+        <a href="index.html"><img src="img/nav_icon/logo.png" class="logo" alt="網站logo"></a>  <!-- 自己製作的-->
+        <div class="dropdown">
+            <div style="text-align: center;" class="navpic">
+                <img src="img/nav_icon/user.png" class="place" width="50px" height="50px"><br>會員專區
+            </div>
+            <div class="dropdown-content">
+                <a href="signin.html">登入會員</a>
+                <a href="resign.html">註冊會員</a>
+                <a href="Comment.html">會員資料</a>
+            </div>
+        </div>
+        <a href="cart.html"><img src="img/nav_icon/shopping.png" class="place" width="50px" height="50px" /><br> &nbsp; 購物車</a>
+    </nav>
+    <br>
+    <section>
+        <div class="container">
+            <div class="slide fade">
+                <img src="img/play/3-02.jpg">
+                <div class="text"></div>
+            </div>
+            <div class="slide fade">
+                <div><img src="img/play/6-01.jpg"></div>
+                <div class="text"></div>
+            </div>
+            <div class="slide fade">
+                <img src="img/cookie/cookie3-02.jpg">
+                <div class="text"></div>
+            </div>
+            <div class="slide fade">
+                <img src="img/chocolate/chocolate05_1.jpg">
+                <div class="text"></div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    </section>
+    <br><br><br>
+    <h2 style="text-align: center;">熱銷商品</h2>
+    <article class="underpart"> 
+        <div>
+            <a href="candy.html" >
+                <img src="img/candy/candy1-02.jpg"  width="700px" height="700px" >
+            </a>
+        </div>
+            <div>    
+                <a href="play.html" >
+                    <img src="img/play/3-01.jpg" width="700px" height="700px" >
+                </a> 
+            </div>
+        <div>    
+            <a href="productpage.html" >
+                <img src="img/cookie/cookie1-01.jpg" width="700px" height="700px" >
+            </a> 
+        </div>
+    </article>
+
+    <footer>
+        @by memory grocery store <br>
+        地址:320桃園市中壢區中北路200號<br>
+        電話: 032655401
+    </footer>
+
+</body>
+</html>

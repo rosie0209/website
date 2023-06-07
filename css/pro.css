@@ -1,0 +1,150 @@
+/*功能選項*/
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: #ddb892;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+.place {
+    margin-top: 50px;
+}
+
+.navpic {
+    /* background-color: #04AA6D;
+    color: white;*/
+    cursor: pointer;
+    font-size: 16px;
+    padding-bottom: 30px;
+    transition: 0.5s;
+}
+
+.navpic img:hover {
+    color: white;
+    filter: brightness(200%);
+}
+
+.place img:hover {
+    filter: brightness(200%);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #dcd8d8;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*功能選項End*/
+
+
+/*商品圖片放大*/
+.two_box {
+    margin: 5px;
+    display: inline-block;
+}
+
+.two_pic {
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border: 3px #B50129 solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.two_pic img {
+    width: 300px;
+
+}
+
+.two_pic img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+
+body {
+    margin: 0;
+    background-color:#faedcd  ;
+}
+
+main {
+    padding: 20px;
+}
+
+.candy {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.logo {
+    width: 150px;
+}
+
+.word {
+    text-align: center;
+    margin: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.member {
+    margin-top: 50px;
+}
+
+footer {
+    background-color:#ddb892;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
