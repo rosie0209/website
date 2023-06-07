@@ -2,10 +2,6 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-body{
-    background-color: #faedcd;
-}
-
 /*功能選項*/
 
 a {
@@ -41,7 +37,7 @@ section {
     margin: 0px auto;
     box-sizing: border-box;
     border-radius: 30px;
-    background-color: wheat;
+    background-color: #faedcd;
 }
 
 footer {
