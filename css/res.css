@@ -4,6 +4,10 @@
 }
 /*功能選項*/
 
+body{
+    background-color: #faedcd;
+}
+
 a {
     text-decoration: none;
     color: black;
