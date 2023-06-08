@@ -2,11 +2,11 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+/*功能選項*/
+
 body{
     background-color: #faedcd;
 }
-
-/*功能選項*/
 
 a {
     text-decoration: none;
